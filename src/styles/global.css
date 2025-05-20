@@ -121,6 +121,10 @@
 	}
 }
 
+.expressive-code {
+  @apply my-4;
+}
+
 @utility prose {
 	--tw-prose-body: var(--color-global-text);
 	--tw-prose-bold: var(--color-global-text);
