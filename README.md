@@ -6,6 +6,18 @@
 yarn dev
 ```
 
+## フォーマット
+
+- biome
+  - *.js, *.jsx
+  - *.ts, *.tsx
+  - *.json
+  - *.css
+- prettier
+  - *.astro
+- textlint
+  - *.md, *.mdx
+
 # 参考
 
 ## Astro
@@ -15,6 +27,11 @@ https://docs.astro.build/en/guides/deploy/netlify/
 
 Shiki Bundled Languages
 https://shiki.style/languages
+
+## Biome
+
+Language support
+https://biomejs.dev/ja/internals/language-support/
 
 ## その他
 
