@@ -11,6 +11,7 @@
 		"format": "pnpm run format:code && pnpm run format:imports",
 		"format:code": "biome format . --write && prettier -w \"**/*\" \"!**/*.{md,mdx}\" --ignore-unknown --cache",
 		"format:imports": "biome check --formatter-enabled=false --write",
+		"format:md": "textlint \"**/*.md\" --fix",
 		"check": "astro check"
 	},
 	"dependencies": {
@@ -54,9 +55,16 @@
 		"prettier-plugin-tailwindcss": "^0.6.11",
 		"reading-time": "^1.5.0",
 		"tailwindcss": "4.1.3",
+		"textlint": "^14.7.2",
+		"textlint-rule-preset-ja-spacing": "^2.4.3",
+		"textlint-rule-preset-ja-technical-writing": "^12.0.2",
 		"typescript": "^5.8.3"
 	},
 	"pnpm": {
-		"onlyBuiltDependencies": ["@biomejs/biome", "esbuild", "sharp"]
+		"onlyBuiltDependencies": [
+			"@biomejs/biome",
+			"esbuild",
+			"sharp"
+		]
 	}
 }
