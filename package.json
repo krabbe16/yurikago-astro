@@ -8,7 +8,7 @@
 		"postbuild": "pagefind --site dist",
 		"preview": "astro preview",
 		"lint": "biome lint .",
-		"format": "pnpm run format:code && pnpm run format:imports",
+		"format": "pnpm run format:code && pnpm run format:imports && pnpm run format:md",
 		"format:code": "biome format . --write && prettier -w \"**/*\" \"!**/*.{md,mdx}\" --ignore-unknown --cache",
 		"format:imports": "biome check --formatter-enabled=false --write",
 		"format:md": "textlint \"**/*.md\" --fix",
@@ -61,10 +61,6 @@
 		"typescript": "^5.8.3"
 	},
 	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@biomejs/biome",
-			"esbuild",
-			"sharp"
-		]
+		"onlyBuiltDependencies": ["@biomejs/biome", "esbuild", "sharp"]
 	}
 }
