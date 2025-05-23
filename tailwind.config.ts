@@ -1,13 +1,9 @@
 import type { Config } from "tailwindcss";
-import defaultTheme from "tailwindcss/defaultTheme";
 
 export default {
 	plugins: [require("@tailwindcss/typography")],
 	theme: {
 		extend: {
-			fontFamily: {
-				sans: ['"Noto Sans JP"', ...defaultTheme.fontFamily.sans],
-			},
 			typography: () => ({
 				DEFAULT: {
 					css: {
