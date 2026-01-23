@@ -1,4 +1,4 @@
-# yurikago-astro
+# krabbe16.github.io
 
 ## 開発
 
