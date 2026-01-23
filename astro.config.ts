@@ -24,6 +24,8 @@ import rehypeUnwrapImages from "rehype-unwrap-images";
 // https://astro.build/config
 export default defineConfig({
 	site: siteConfig.url,
+	base: "/yurikago-blog/",
+	output: "static",
 	image: {
 		domains: [],
 	},
@@ -57,7 +59,7 @@ export default defineConfig({
 					type: "image/png",
 				},
 			],
-			start_url: "/",
+			start_url: "/yurikago-blog/",
 			background_color: "#1d1f21",
 			theme_color: "#2bbc8a",
 			display: "standalone",

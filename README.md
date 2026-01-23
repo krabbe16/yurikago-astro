@@ -22,9 +22,6 @@ yarn dev
 
 ## Astro
 
-Deploy your Astro Site to Netlify
-https://docs.astro.build/en/guides/deploy/netlify/
-
 Shiki Bundled Languages
 https://shiki.style/languages
 
