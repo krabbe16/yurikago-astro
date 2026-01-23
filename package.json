@@ -56,7 +56,7 @@
 		"reading-time": "^1.5.0",
 		"sharp": "^0.34.5",
 		"tailwindcss": "4.1.18",
-		"textlint": "^14.7.2",
+		"textlint": "^15.5.1",
 		"textlint-rule-preset-ja-spacing": "^2.4.3",
 		"textlint-rule-preset-ja-technical-writing": "^12.0.2",
 		"typescript": "^5.8.3"
