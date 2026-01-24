@@ -1,6 +1,7 @@
 {
 	"name": "krabbe16.github.io",
 	"version": "6.4.0",
+	"packageManager": "pnpm@10",
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
